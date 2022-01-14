@@ -1,0 +1,33 @@
+.album{
+    display: flex;
+    flex-wrap: wrap;
+}
+.frame{
+    position: relative;
+    width: 400px;
+    margin: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+.images{}
+.images img{ 
+    width: 100%;
+}
+h2 , p {
+    padding: 0px 20px;
+    text-align: justify;
+}
+h2{
+    text-align: center;
+}
+p{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    display: none;
+    background-color: rgb(226, 178, 226);
+}
+.frame:hover p{
+display: block;
+}
